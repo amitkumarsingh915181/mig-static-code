@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Events - Media India Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container flex-between">
+      <div>
+        <a href="https://www.facebook.com/Media.India.Group/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/mediaindiagroup" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/MediaIndiaGroup" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/media-india-group" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/media_india_group/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+ <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html"> <img src="mig-logo.png" alt="logo" style="width: 100px; height:auto;"></a>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="search-container">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="menu-toggle">☰</div>
+      <!-- Mobile nav (cloned or simplified) -->
+      <div class="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav-header">
+          <h3>Media India Group</h3>
+          <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+        </div>
+        <div class="mobile-search">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines +</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles +</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact +</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- WTE Miami Banner -->
+    <!-- <div class="col-md-12">
+      <section class="bg-white text-center">
+        <a href="https://wtemiami.com/" target="_blank">
+          <img src="https://mediaindia.eu/wp-content/uploads/2025/07/Attendee-Media-India-Group-WTE-2025-English-GIF-767x116-1.gif" class="img-fluid rounded" alt="WTE Miami 2025 Banner" style="padding: 0px 0px 10px; width:auto; border-radius: 5px; opacity: 1;">
+        </a>
+      </section>
+    </div> -->
+
+
+    <section class="container">
+      <div class="section-title">Events</div>
+      
+      <!-- Events Tabs -->
+      <div class="events-tabs">
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="business">Business Events</button>
+          <button class="tab-btn" data-tab="culture">Culture Events</button>
+          <button class="tab-btn" data-tab="tourism">Tourism Events</button>
+          <button class="tab-btn" data-tab="diaspora">Diaspora Events</button>
+        </div>
+
+        <!-- Business Events Tab -->
+        <div class="tab-content active" id="business">
+          <div class="events-list">
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>WTE Miami 2025</h3>
+                <p>U.S. & International Travel Market</p>
+                <span class="event-date">March 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>EU India Summit, Brussels</h3>
+                <p>European Union - India Business Summit</p>
+                <span class="event-date">April 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>OECD Annual Forum, Paris</h3>
+                <p>Organization for Economic Cooperation and Development</p>
+                <span class="event-date">May 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>SIAL Food Fair, Paris</h3>
+                <p>International Food Exhibition</p>
+                <span class="event-date">October 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>ANUGA Food Fair, Cologne</h3>
+                <p>World's Leading Trade Fair for Food and Beverages</p>
+                <span class="event-date">October 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Culture Events Tab -->
+        <div class="tab-content" id="culture">
+          <div class="events-list">
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>Paris Air Show</h3>
+                <p>International Aerospace Exhibition</p>
+                <span class="event-date">June 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>Vibrant Gujarat, India</h3>
+                <p>Global Business Summit</p>
+                <span class="event-date">January 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>Hannover Messe, Germany</h3>
+                <p>World's Leading Industrial Technology Fair</p>
+                <span class="event-date">April 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>G20 Leaders Summit</h3>
+                <p>Global Economic Cooperation Forum</p>
+                <span class="event-date">November 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>Sustainable Innovation Forum - COP 21</h3>
+                <p>Climate Change Conference</p>
+                <span class="event-date">December 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tourism Events Tab -->
+        <div class="tab-content" id="tourism">
+          <div class="events-list">
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>Indian Aviation</h3>
+                <p>Aviation and Aerospace Exhibition</p>
+                <span class="event-date">February 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>Gulfood</h3>
+                <p>Middle East's Largest Food & Beverage Trade Show</p>
+                <span class="event-date">February 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diaspora Events Tab -->
+        <div class="tab-content" id="diaspora">
+          <div class="events-list">
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>Eurosatory</h3>
+                <p>International Defense and Security Exhibition</p>
+                <span class="event-date">June 2025</span>
+              </div>
+            </div>
+            
+            <div class="event-item">
+              <div class="event-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="event-details">
+                <h3>EU India Skill Development Meet</h3>
+                <p>Skills and Education Partnership Forum</p>
+                <span class="event-date">September 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Partner Logos Section -->
+      <div class="partner-logos">
+        <h2>Our Partners & Collaborations</h2>
+        <div class="logos-grid">
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/anuga.png" alt="ANUGA">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/cop24.png" alt="COP24 Katowice 2018">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2020/01/eurosatory-logo.png" alt="Eurosatory Paris">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/festival-de-cannes.png" alt="Festival de Cannes">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/fitur.png" alt="Fitur">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/gulfood.png" alt="Gulfood">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/itb-berlin.png" alt="ITB Berlin">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/oecd-logo.png" alt="OECD">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/otdykh.png" alt="Odykh Leisure">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/pravasi-bharatiya-divas.png" alt="Pravasi Bharatiya Divas">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/g20-turkey.png" alt="G20 Turkey 2015">
+          </div>
+          <div class="logo-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/wtm-london.png" alt="WTM London">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-main">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <div class=""><img src="mig-logo-foother.png" alt="logo" style="width: 120px; height:auto;"></div>
+        </div>
+        <p class="footer-description">Media India Group is a global platform founded in 2004, based in Europe
+          and India, encompassing publishing, communication, consultation services and event management.</p>
+        <div class="footer-contact">
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Head Office :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>47, AVENUE DE LA REPUBLIQUE, 75011, PARIS, FRANCE</span>
+          </div>
+          <!-- <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +33 (01) 43573933</span>
+          </div> -->
+
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Communication Address :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>607, DLF Tower-A, Jasola District Centre, Jasola, New Delhi India</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +91-11-41065972</span>
+          </div>
+        </div>
+        
+        <div class="footer-social">
+          <a href="https://www.facebook.com/Media.India.Group/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/mediaindiagroup" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/user/MediaIndiaGroup" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/media-india-group" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/media_india_group/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">RECENT POSTS</h4>
+        <div class="recent-posts">
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1499914485622-a88fac536970?q=80&w=1400&auto=format&fit=crop"
+              alt="Food system">
+            <div class="post-info">
+              <h5>Scientists urge food system overhaul to curb global land degradation</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Anantara">
+            <div class="post-info">
+              <h5>Anantara Jewel Bagh: Building momentum with weddings, FITs & luxury</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">CATEGORIES</h4>
+        <ul class="footer-categories">
+          <li><a href="articles.html#business">BUSINESS</a></li>
+          <li><a href="articles.html#politics">POLITICS</a></li>
+          <li><a href="articles.html#tourism">TOURISM</a></li>
+          <li><a href="articles.html#culture">CULTURE</a></li>
+          <li><a href="articles.html#environment">ENVIRONMENT</a></li>
+          <li><a href="articles.html#society">SOCIETY</a></li>
+          <li><a href="articles.html#cinema">CINEMA</a></li>
+          <li><a href="articles.html#diaspora">INDIAN DIASPORA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">INSTAGRAM</h4>
+        <div class="instagram-grid">
+          <div class="instagram-item">
+            <img src="https://source.unsplash.com/80x80/?concert,music" alt="Concerts 2025">
+            <div class="instagram-overlay">
+              <span>FROM COLDPLAY TO LOLLAPALOOZA: INTERNATIONAL MUSIC CONCERTS IN INDIA IN 2025</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Shyam Benegal">
+            <div class="instagram-overlay">
+              <span>SHYAM BENEGAL: THE FILMMAKER WHO DEFINED SOCIAL STORYTELLING</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="Manmohan Singh">
+            <div class="instagram-overlay">
+              <span>MIG Manmohan Singh Founding father of New India</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop"
+              alt="India Relations">
+            <div class="instagram-overlay">
+              <span>India's Relations: From Kolkata to World</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop"
+              alt="Matrimonial">
+            <div class="instagram-overlay">
+              <span>MIG RISING MATRIMONIAL FRAUDS BOOST DEMAND FOR PRIVATE DETECTIVES</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1400&auto=format&fit=crop"
+              alt="LG Electronics">
+            <div class="instagram-overlay">
+              <span>LG ELECTRONICS, HDB DOMINATE 2025 IPO PIPELINE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <p>Copyright © 2025 <a href="https://mediaindia.eu" target="_blank">mediaindia.eu</a> - All rights
+            reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a href="about.html">About</a>
+          <span class="footer-separator">•</span>
+          <a href="magazines.html">Magazine Subscriptions</a>
+          <span class="footer-separator">•</span>
+          <a href="privacy.html">Privacy & Policy</a>
+          <span class="footer-separator">•</span>
+          <a href="sitemap.html">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

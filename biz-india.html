@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIZ@INDIA-MAGAZINES</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+
+<body>
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="container flex-between">
+      <div>Media India Group</div>
+      <div>
+        <a href="https://www.facebook.com/Media.India.Group/" title="Facebook" target="_blank"><i
+            class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/mediaindiagroup" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/MediaIndiaGroup" title="Youtube" target="_blank"><i
+            class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/media-india-group" title="Linkedin" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/media_india_group/" title="Instagram" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" title="WhatsApp" target="_blank"><i
+            class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html"> <img src="mig-logo.png" alt="logo" style="width: 100px; height:auto;"></a>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+            <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="search-container">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="menu-toggle">☰</div>
+      <!-- Mobile nav (cloned or simplified) -->
+      <div class="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav-header">
+          <h3>Media India Group</h3>
+          <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+        </div>
+        <div class="mobile-search">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines +</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+            <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles +</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact +</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <div class="container">
+
+      <!-- Logo Section -->
+      <div class="container py-3 d-flex justify-content-center align-items-center">
+        <img
+          src="https://mediaindia.eu/wp-content/uploads/2025/06/BIZINDIA-Paris-Air-Show-Special-June-2025LOGO-e1750326457237.png"
+          alt="Revista La India Logo" class="img-fluid" style="max-height: 60px;">
+      </div>
+
+      <!-- Navbar -->
+      <div class="magazine-menu pb-30">
+        <div id="magazie-bar">
+          <div class="menu-container">
+            
+            <div class="nav-item">
+              <a class="nav-link defence" href="#">DEFENCE & AEROSPACE</a>
+            </div>
+            
+            <div class="nav-item">
+              <a class="nav-link industry" href="#">INDUSTRY</a>
+            </div>
+            
+            <div class="nav-item">
+              <a class="nav-link skill" href="#">SKILL</a>
+            </div>
+            
+            <div class="nav-item">
+              <a class="nav-link technology" href="#">TECHNOLOGY</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+
+
+
+      <div class="content-layout">
+        <div class="news-section">
+
+
+          <section class="rail">
+            <!-- Left feature -->
+            <article class="rail-feature">
+              <div class="img">
+                <img
+                  src="https://mediaindia.eu/wp-content/uploads/2025/08/giant-budhha-statue-tawang-arunachal-pradesh-2-attr-hero-634x430.jpg"
+                  alt="Superstitions decoded" />
+              </div>
+              <div class="overlay">
+                <div class="cat-culture">Culture</div>
+                <h3 class="title">Superstitions decoded: Practices that once made sense</h3>
+                <div class="meta">Aug 10, 2025</div>
+              </div>
+            </article>
+
+            <!-- Right list -->
+            <div class="rail-list">
+              <a class="rail-item" href="#">
+                <img src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg"
+                  alt="Human-animal conflict" />
+                <div class="t">
+                  <div class="cat-environment">Environment</div>
+                  <h4>Human-animal conflict rises in India as forest land
+                  </h4>
+                  <div class="meta">Aug 9, 2025</div>
+                </div>
+              </a>
+
+              <a class="rail-item" href="#">
+                <img src="https://mediaindia.eu/wp-content/uploads/2025/08/IMG_3137-scaled-364x258.jpg" alt="Koraput" />
+                <div class="t">
+                  <div class="cat-tourism">Tourism</div>
+                  <h4>Koraput: Untouched heart of East India</h4>
+                  <div class="meta">Aug 7, 2025</div>
+                </div>
+              </a>
+              <a class="rail-item" href="#">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=400&auto=format&fit=crop"
+                  alt="Antara Cruises" />
+                <div class="t">
+                  <div class="cat-tourism">Tourism</div>
+                  <h4>Antara Cruises joins Serandipians network of global travel designers</h4>
+                  <div class="meta">Aug 6, 2025</div>
+                </div>
+              </a>
+
+            </div>
+          </section>
+
+
+          <!--Defence & Aerospace -->
+          <div class="row mb-5">
+            <!-- Defence & Aerospace-->
+            <div class="col-md-6">
+              <h2 class="section-title defence">Defence & Aerospace</h2>
+              <div class="card main-story mb-3">
+                <img src="https://mediaindia.eu/wp-content/uploads/2025/07/AI_lead_image-130x91.png"
+                  class="card-img-top" alt="Business Main">
+                <div class="card-body">
+                  <h5 class="card-title">Global Market Rebounds Strongly</h5>
+                  <p class="story-date">Aug 25, 2025</p>
+                  <p class="card-text">Stock markets worldwide saw significant gains amid renewed
+                    investor optimism.</p>
+                  <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=2" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Startups Attract Record Funding</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=3" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Oil Prices Surge Globally</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Politics -->
+            <div class="col-md-6">
+              <h2 class="section-title industry">Industry</h2>
+              <div class="card main-story mb-3">
+                <img src="https://picsum.photos/600/300?random=4" class="card-img-top" alt="Politics Main">
+                <div class="card-body">
+                  <h5 class="card-title">Election Campaigns Heat Up</h5>
+                  <p class="story-date">Aug 25, 2025</p>
+                  <p class="card-text">Parties across the country launch rallies as elections draw
+                    near.</p>
+                  <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=5" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Debates Spark Fierce Reactions</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=6" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Policy Reforms Announced</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2: Society & Culture -->
+          <div class="row mb-5">
+            <!-- Society -->
+            <div class="col-md-6">
+              <h2 class="section-title skill">Skill</h2>
+              <div class="card main-story mb-3">
+                <img src="https://picsum.photos/600/300?random=7" class="card-img-top" alt="Society Main">
+                <div class="card-body">
+                  <h5 class="card-title">Community Drives Change</h5>
+                  <p class="story-date">Aug 25, 2025</p>
+                  <p class="card-text">Grassroots initiatives are reshaping neighborhoods and
+                    empowering locals.</p>
+                  <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=8" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Youth Movements Gain Momentum</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=9" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Volunteers Step In to Help</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Culture -->
+            <div class="col-md-6">
+              <h2 class="section-title technology">Technology</h2>
+              <div class="card main-story mb-3">
+                <img src="https://picsum.photos/600/300?random=10" class="card-img-top" alt="Culture Main">
+                <div class="card-body">
+                  <h5 class="card-title">Festival Brings Cities Alive</h5>
+                  <p class="story-date">Aug 25, 2025</p>
+                  <p class="card-text">Celebrations filled the streets as the cultural festival began
+                    nationwide.</p>
+                  <a href="#" class="btn btn-primary culture btn-sm">Read More</a>
+                </div>
+              </div>
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=11" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Artists Showcase Talent</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card sub-story">
+                    <img src="https://picsum.photos/200/150?random=12" class="card-img-top" alt="">
+                    <div class="card-body p-2">
+                      <h6 class="card-title mb-0">Cultural Exchange Expands</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div> <!-- /.news-section -->
+
+        <aside class="sidebar">
+          <div class="widget">
+            <h4>Latest Magazines</h4>
+
+            <div class="swiper magazine-swiper">
+              <div class="swiper-wrapper">
+                
+
+                <div class="swiper-slide">
+                  <div class="mag-cover" data-caption="Biz@India Paris Air Show June 2025">
+                    <img
+                      src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg"
+                      alt="Biz@India">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="mag-cover" data-caption="Biz@India Gulfood Feb 2020">
+                    <img
+                      src="https://mediaindia.eu/magazines/wp-content/uploads/2020/07/Biz@India-GulFood-Feb-2020-cover.jpg"
+                      alt="Biz@India">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="mag-cover" data-caption="Biz@India ANUGA Oct 2019">
+                    <img
+                      src="https://mediaindia.eu/magazines/wp-content/uploads/2019/10/BIZ@INDIA-ANUGA-Cover-page-768x1072.jpg"
+                      alt="Biz@India">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="mag-cover" data-caption="Biz@India G7 Aug 2019">
+                    <img
+                      src="https://mediaindia.eu/magazines/wp-content/uploads/2019/08/Biz@India-G7-Cover-page.jpg"
+                      alt="Biz@India">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="mag-cover" data-caption="Biz@India Paris Air Show June 2019">
+                    <img
+                      src="https://mediaindia.eu/magazines/wp-content/uploads/2019/06/Paris-Air-Show-Cover-e1560753994876.jpg"
+                      alt="Biz@India">
+                  </div>
+                </div>
+
+                
+              </div>
+
+            </div>
+
+
+            <div class="side-card" style="margin-top:18px">
+              <div class="side-hd">Subscribe</div>
+              <div class="subscribe">
+                <p class="excerpt" style="margin-top:0">Get the best stories in your inbox every morning.
+                </p>
+                <form onsubmit="return subscribe(event)">
+                  <input type="email" placeholder="Email address" required aria-label="Email address" />
+                  <div style="height:10px"></div>
+                  <button class="btn btn-primary btn-sm mt-2" type="submit">Subscribe Now</button>
+                </form>
+              </div>
+            </div>
+
+            <!-- Outbound Travel -->
+            <div class="section-hd">
+              <h3>Click For Latest in Outbound Travel</h3>
+            </div>
+            <section class="rail rail-stacked">
+              <article class="rail-feature">
+                <div class="img">
+                  <img
+                    src="https://mediaindia.eu/wp-content/uploads/2025/08/2cd434ef-eecb-4618-be01-5bb297eaeba6-338x240.jpg"
+                    alt="Bangus Valley" />
+                </div>
+                <div class="overlay">
+                  <div class="cat-tourism">Tourism</div>
+                  <h3 class="title">Bangus Valley: A Tranquil Haven for Tourists</h3>
+                  <div class="meta">Feb 5, 2025</div>
+                </div>
+              </article>
+              <div class="rail-list">
+                <a class="rail-item" href="#">
+                  <img src="https://mediaindia.eu/wp-content/uploads/2025/07/AI_lead_image-130x91.png"
+                    alt="Kashmir autumn" />
+                  <div class="t">
+                    <div class="cat-tourism">Travel</div>
+                    <h4>Autumn in Kashmir: Land of Fire & Ice</h4>
+                    <div class="meta">Oct 5, 2024</div>
+                  </div>
+                </a>
+
+              </div>
+            </section>
+
+            <!-- Advertisement -->
+            <section class="ad-co w-auto h-100">
+              <div class="section-hd mb-2 text-center">
+                <h3>Advertisement</h3>
+              </div>
+
+              <div class="ad d-grid w-100 h-auto justify-content-center align-items-center">
+                <div class="ad-img w-auto h-100">
+                  <img src="https://mediaindia.eu/wp-content/uploads/2021/02/volunteers.jpg" alt="AD"
+                    class="img-fluid h-100 object-fit-cover">
+                </div>
+              </div>
+            </section>
+
+
+
+        </aside>
+      </div> <!-- /.content-layout -->
+
+    </div>
+
+
+<!-- Magazines -->
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+<!-- Magazines -->
+<div class="container my-5">
+  <h4 class="section-title">Magazines</h4>
+  
+  <div class="swiper magazine-swiper-two">
+    <div class="swiper-wrapper">
+      
+      <!-- Slides -->
+    
+   
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" class="img-fluid shadow-image">
+      </div>
+      
+    </div>
+    
+    <!-- Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+</div>
+
+
+  </main>
+
+
+  <!-- Footer -->
+<footer>
+    <div class="container footer-main">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <div class=""><img src="mig-logo-foother.png" alt="logo" style="width: 120px; height:auto;"></div>
+        </div>
+        <p class="footer-description">Media India Group is a global platform founded in 2004, based in Europe
+          and India, encompassing publishing, communication, consultation services and event management.</p>
+        <div class="footer-contact">
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Head Office :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>47, AVENUE DE LA REPUBLIQUE, 75011, PARIS, FRANCE</span>
+          </div>
+          <!-- <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +33 (01) 43573933</span>
+          </div> -->
+
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Communication Address :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>607, DLF Tower-A, Jasola District Centre, Jasola, New Delhi India</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +91-11-41065972</span>
+          </div>
+        </div>
+        
+        <div class="footer-social">
+          <a href="https://www.facebook.com/Media.India.Group/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/mediaindiagroup" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/user/MediaIndiaGroup" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/media-india-group" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/media_india_group/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">RECENT POSTS</h4>
+        <div class="recent-posts">
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1499914485622-a88fac536970?q=80&w=1400&auto=format&fit=crop"
+              alt="Food system">
+            <div class="post-info">
+              <h5>Scientists urge food system overhaul to curb global land degradation</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Anantara">
+            <div class="post-info">
+              <h5>Anantara Jewel Bagh: Building momentum with weddings, FITs & luxury</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">CATEGORIES</h4>
+        <ul class="footer-categories">
+          <li><a href="articles.html#business">BUSINESS</a></li>
+          <li><a href="articles.html#politics">POLITICS</a></li>
+          <li><a href="articles.html#tourism">TOURISM</a></li>
+          <li><a href="articles.html#culture">CULTURE</a></li>
+          <li><a href="articles.html#environment">ENVIRONMENT</a></li>
+          <li><a href="articles.html#society">SOCIETY</a></li>
+          <li><a href="articles.html#cinema">CINEMA</a></li>
+          <li><a href="articles.html#diaspora">INDIAN DIASPORA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">INSTAGRAM</h4>
+        <div class="instagram-grid">
+          <div class="instagram-item">
+            <img src="https://source.unsplash.com/80x80/?concert,music" alt="Concerts 2025">
+            <div class="instagram-overlay">
+              <span>FROM COLDPLAY TO LOLLAPALOOZA: INTERNATIONAL MUSIC CONCERTS IN INDIA IN 2025</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Shyam Benegal">
+            <div class="instagram-overlay">
+              <span>SHYAM BENEGAL: THE FILMMAKER WHO DEFINED SOCIAL STORYTELLING</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="Manmohan Singh">
+            <div class="instagram-overlay">
+              <span>MIG Manmohan Singh Founding father of New India</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop"
+              alt="India Relations">
+            <div class="instagram-overlay">
+              <span>India's Relations: From Kolkata to World</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop"
+              alt="Matrimonial">
+            <div class="instagram-overlay">
+              <span>MIG RISING MATRIMONIAL FRAUDS BOOST DEMAND FOR PRIVATE DETECTIVES</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1400&auto=format&fit=crop"
+              alt="LG Electronics">
+            <div class="instagram-overlay">
+              <span>LG ELECTRONICS, HDB DOMINATE 2025 IPO PIPELINE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <p>Copyright © 2025 <a href="https://mediaindia.eu" target="_blank">mediaindia.eu</a> - All rights
+            reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a href="about.html">About</a>
+          <span class="footer-separator">•</span>
+          <a href="magazines.html">Magazine Subscriptions</a>
+          <span class="footer-separator">•</span>
+          <a href="privacy.html">Privacy & Policy</a>
+          <span class="footer-separator">•</span>
+          <a href="sitemap.html">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // Tabs keyboard + click behavior (desktop)
+    document.addEventListener("DOMContentLoaded", function () {
+      const swiper = new Swiper('.magazine-swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 150,
+          modifier: 1.2,
+          slideShadows: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    });
+
+    let swiperTwo = new Swiper(".magazine-swiper-two", {
+  slidesPerView: 2,
+  spaceBetween: 15,
+  loop: true,
+  effect: "",  // 👈 Animation effect add
+  speed: 800,           // 👈 Transition speed (ms)
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 150,
+    modifier: 1.2,
+    slideShadows: false,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    576: { slidesPerView: 3 },   // Tablet
+    768: { slidesPerView: 4 },   // Small desktop
+    992: { slidesPerView: 5 },   // Desktop
+    1200: { slidesPerView: 6 }   // Large desktop
+  }
+});
+
+
+
+  </script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>

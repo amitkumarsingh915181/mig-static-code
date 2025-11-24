@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home - MyBlog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+
+  </style>
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+  <!-- Top bar -->
+  <div class="top-bar">
+    <div class="container flex-between">
+      <div>Media India Group</div>
+      <div>
+        <a href="https://www.facebook.com/Media.India.Group/" title="Facebook" target="_blank"><i
+            class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/mediaindiagroup" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/MediaIndiaGroup" title="Youtube" target="_blank"><i
+            class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/media-india-group" title="Linkedin" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/media_india_group/" title="Instagram" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" title="WhatsApp" target="_blank"><i
+            class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html"> <img src="mig-logo.png" alt="logo" style="width: 100px; height:auto;"></a>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="search-container">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="menu-toggle">☰</div>
+      <!-- Mobile nav (cloned or simplified) -->
+      <div class="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav-header">
+          <h3>Media India Group</h3>
+          <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+        </div>
+        <div class="mobile-search">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines +</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles +</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact +</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Main Content -->
+  <main class="container">
+
+
+    <!-- BUSINESS -->
+    <div id="business" class="section-hd">
+      <h3 class="section-title">Business</h3>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Business">
+      <div class="article-content">
+        <h5>India’s expanding trade horizons: Major FTAs in …</h5> <small class="text-muted">Aug 27, 2025</small>
+        <p>India has signed five major free trade agreements over the past five years, marking a decisive shift...
+        </p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Business">
+      <div class="article-content">
+        <h5>BLS International wins INR 20.5 billion UIDAI…</h5> <small class="text-muted">Aug 26, 2025</small>
+        <p>BLS International Services has secured a contract from UIDAI to operate Aadhaar Seva Kendras…</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Politics">
+      <div class="article-content">
+        <h5>India-EU relations strengthen with new dialogue…</h5> <small class="text-muted">Aug 20, 2025</small>
+        <p>India and the EU have signed an agreement to boost cooperation in trade and security...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Politics">
+      <div class="article-content">
+        <h5>New reforms reshape Indian Parliament</h5> <small class="text-muted">Aug 18, 2025</small>
+        <p>Major structural reforms are underway in the Indian Parliament to improve governance...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Tourism">
+      <div class="article-content">
+        <h5>India’s rising appeal as global tourist hub</h5> <small class="text-muted">Aug 15, 2025</small>
+        <p>Foreign arrivals in India are seeing record highs with new initiatives...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Tourism">
+      <div class="article-content">
+        <h5>Sustainable tourism projects in Himalayas</h5> <small class="text-muted">Aug 14, 2025</small>
+        <p>Eco-tourism ventures are being promoted to preserve Himalayan biodiversity...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Diaspora">
+      <div class="article-content">
+        <h5>Indian community in US celebrates Independence Day</h5> <small class="text-muted">Aug 1, 2025</small>
+        <p>Events across US mark Indian Independence Day with pride...</p> <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Diaspora">
+      <div class="article-content">
+        <h5>NRIs contribute more remittances than ever</h5> <small class="text-muted">Jul 31, 2025</small>
+        <p>Remittances from NRIs have touched a record $120 billion...</p> <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Education">
+      <div class="article-content">
+        <h5>NEP 2025 reforms in full effect</h5> <small class="text-muted">Jul 28, 2025</small>
+        <p>National Education Policy 2025 is reshaping India’s education system...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Education">
+      <div class="article-content">
+        <h5>Digital classrooms expand to rural India</h5> <small class="text-muted">Jul 27, 2025</small>
+        <p>Online education platforms are now reaching villages across the country...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Technology">
+      <div class="article-content">
+        <h5>AI startups boom in India</h5> <small class="text-muted">Jul 25, 2025</small>
+        <p>India has become a hotspot for artificial intelligence innovation...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Technology">
+      <div class="article-content">
+        <h5>5G rollout accelerates</h5> <small class="text-muted">Jul 24, 2025</small>
+        <p>Telecom operators expand 5G coverage across major Indian cities...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Defence">
+      <div class="article-content">
+        <h5>India launches new defence satellites</h5> <small class="text-muted">Jul 20, 2025</small>
+        <p>ISRO successfully launches advanced surveillance satellites...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Defence">
+      <div class="article-content">
+        <h5>Make in India boosts indigenous weapons</h5> <small class="text-muted">Jul 19, 2025</small>
+        <p>India increases focus on domestic production of defence equipment...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Business">
+      <div class="article-content">
+        <h5>BLS International wins INR 20.5 billion UIDAI…</h5> <small class="text-muted">Aug 26, 2025</small>
+        <p>BLS International Services has secured a contract from UIDAI to operate Aadhaar Seva Kendras…</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Politics">
+      <div class="article-content">
+        <h5>India-EU relations strengthen with new dialogue…</h5> <small class="text-muted">Aug 20, 2025</small>
+        <p>India and the EU have signed an agreement to boost cooperation in trade and security...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Politics">
+      <div class="article-content">
+        <h5>New reforms reshape Indian Parliament</h5> <small class="text-muted">Aug 18, 2025</small>
+        <p>Major structural reforms are underway in the Indian Parliament to improve governance...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Tourism">
+      <div class="article-content">
+        <h5>India’s rising appeal as global tourist hub</h5> <small class="text-muted">Aug 15, 2025</small>
+        <p>Foreign arrivals in India are seeing record highs with new initiatives...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Tourism">
+      <div class="article-content">
+        <h5>Sustainable tourism projects in Himalayas</h5> <small class="text-muted">Aug 14, 2025</small>
+        <p>Eco-tourism ventures are being promoted to preserve Himalayan biodiversity...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Diaspora">
+      <div class="article-content">
+        <h5>Indian community in US celebrates Independence Day</h5> <small class="text-muted">Aug 1, 2025</small>
+        <p>Events across US mark Indian Independence Day with pride...</p> <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Diaspora">
+      <div class="article-content">
+        <h5>NRIs contribute more remittances than ever</h5> <small class="text-muted">Jul 31, 2025</small>
+        <p>Remittances from NRIs have touched a record $120 billion...</p> <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Education">
+      <div class="article-content">
+        <h5>NEP 2025 reforms in full effect</h5> <small class="text-muted">Jul 28, 2025</small>
+        <p>National Education Policy 2025 is reshaping India’s education system...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Education">
+      <div class="article-content">
+        <h5>Digital classrooms expand to rural India</h5> <small class="text-muted">Jul 27, 2025</small>
+        <p>Online education platforms are now reaching villages across the country...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Technology">
+      <div class="article-content">
+        <h5>AI startups boom in India</h5> <small class="text-muted">Jul 25, 2025</small>
+        <p>India has become a hotspot for artificial intelligence innovation...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Technology">
+      <div class="article-content">
+        <h5>5G rollout accelerates</h5> <small class="text-muted">Jul 24, 2025</small>
+        <p>Telecom operators expand 5G coverage across major Indian cities...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Defence">
+      <div class="article-content">
+        <h5>India launches new defence satellites</h5> <small class="text-muted">Jul 20, 2025</small>
+        <p>ISRO successfully launches advanced surveillance satellites...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Defence">
+      <div class="article-content">
+        <h5>Make in India boosts indigenous weapons</h5> <small class="text-muted">Jul 19, 2025</small>
+        <p>India increases focus on domestic production of defence equipment...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Business">
+      <div class="article-content">
+        <h5>BLS International wins INR 20.5 billion UIDAI…</h5> <small class="text-muted">Aug 26, 2025</small>
+        <p>BLS International Services has secured a contract from UIDAI to operate Aadhaar Seva Kendras…</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Politics">
+      <div class="article-content">
+        <h5>India-EU relations strengthen with new dialogue…</h5> <small class="text-muted">Aug 20, 2025</small>
+        <p>India and the EU have signed an agreement to boost cooperation in trade and security...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Politics">
+      <div class="article-content">
+        <h5>New reforms reshape Indian Parliament</h5> <small class="text-muted">Aug 18, 2025</small>
+        <p>Major structural reforms are underway in the Indian Parliament to improve governance...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Tourism">
+      <div class="article-content">
+        <h5>India’s rising appeal as global tourist hub</h5> <small class="text-muted">Aug 15, 2025</small>
+        <p>Foreign arrivals in India are seeing record highs with new initiatives...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Tourism">
+      <div class="article-content">
+        <h5>Sustainable tourism projects in Himalayas</h5> <small class="text-muted">Aug 14, 2025</small>
+        <p>Eco-tourism ventures are being promoted to preserve Himalayan biodiversity...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Diaspora">
+      <div class="article-content">
+        <h5>Indian community in US celebrates Independence Day</h5> <small class="text-muted">Aug 1, 2025</small>
+        <p>Events across US mark Indian Independence Day with pride...</p> <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Diaspora">
+      <div class="article-content">
+        <h5>NRIs contribute more remittances than ever</h5> <small class="text-muted">Jul 31, 2025</small>
+        <p>Remittances from NRIs have touched a record $120 billion...</p> <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Education">
+      <div class="article-content">
+        <h5>NEP 2025 reforms in full effect</h5> <small class="text-muted">Jul 28, 2025</small>
+        <p>National Education Policy 2025 is reshaping India’s education system...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Education">
+      <div class="article-content">
+        <h5>Digital classrooms expand to rural India</h5> <small class="text-muted">Jul 27, 2025</small>
+        <p>Online education platforms are now reaching villages across the country...</p> <a href="#"
+          class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Technology">
+      <div class="article-content">
+        <h5>AI startups boom in India</h5> <small class="text-muted">Jul 25, 2025</small>
+        <p>India has become a hotspot for artificial intelligence innovation...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Technology">
+      <div class="article-content">
+        <h5>5G rollout accelerates</h5> <small class="text-muted">Jul 24, 2025</small>
+        <p>Telecom operators expand 5G coverage across major Indian cities...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Defence">
+      <div class="article-content">
+        <h5>India launches new defence satellites</h5> <small class="text-muted">Jul 20, 2025</small>
+        <p>ISRO successfully launches advanced surveillance satellites...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+    <div class="article-card"> <img
+        src="https://mediaindia.eu/wp-content/uploads/2025/02/IMG-20250120-WA0011-scaled-338x240.jpg" alt="Defence">
+      <div class="article-content">
+        <h5>Make in India boosts indigenous weapons</h5> <small class="text-muted">Jul 19, 2025</small>
+        <p>India increases focus on domestic production of defence equipment...</p> <a href="#" class="read-more">Read
+          More</a>
+      </div>
+    </div>
+
+
+    <!-- Repeat same structure for Politics, Tourism, etc. -->
+  </main>
+  <!-- Footer -->
+<footer>
+    <div class="container footer-main">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <div class=""><img src="mig-logo-foother.png" alt="logo" style="width: 120px; height:auto;"></div>
+        </div>
+        <p class="footer-description">Media India Group is a global platform founded in 2004, based in Europe
+          and India, encompassing publishing, communication, consultation services and event management.</p>
+        <div class="footer-contact">
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Head Office :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>47, AVENUE DE LA REPUBLIQUE, 75011, PARIS, FRANCE</span>
+          </div>
+          <!-- <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +33 (01) 43573933</span>
+          </div> -->
+
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Communication Address :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>607, DLF Tower-A, Jasola District Centre, Jasola, New Delhi India</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +91-11-41065972</span>
+          </div>
+        </div>
+        
+        <div class="footer-social">
+          <a href="https://www.facebook.com/Media.India.Group/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/mediaindiagroup" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/user/MediaIndiaGroup" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/media-india-group" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/media_india_group/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">RECENT POSTS</h4>
+        <div class="recent-posts">
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1499914485622-a88fac536970?q=80&w=1400&auto=format&fit=crop"
+              alt="Food system">
+            <div class="post-info">
+              <h5>Scientists urge food system overhaul to curb global land degradation</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Anantara">
+            <div class="post-info">
+              <h5>Anantara Jewel Bagh: Building momentum with weddings, FITs & luxury</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">CATEGORIES</h4>
+        <ul class="footer-categories">
+          <li><a href="articles.html#business">BUSINESS</a></li>
+          <li><a href="articles.html#politics">POLITICS</a></li>
+          <li><a href="articles.html#tourism">TOURISM</a></li>
+          <li><a href="articles.html#culture">CULTURE</a></li>
+          <li><a href="articles.html#environment">ENVIRONMENT</a></li>
+          <li><a href="articles.html#society">SOCIETY</a></li>
+          <li><a href="articles.html#cinema">CINEMA</a></li>
+          <li><a href="articles.html#diaspora">INDIAN DIASPORA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">INSTAGRAM</h4>
+        <div class="instagram-grid">
+          <div class="instagram-item">
+            <img src="https://source.unsplash.com/80x80/?concert,music" alt="Concerts 2025">
+            <div class="instagram-overlay">
+              <span>FROM COLDPLAY TO LOLLAPALOOZA: INTERNATIONAL MUSIC CONCERTS IN INDIA IN 2025</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Shyam Benegal">
+            <div class="instagram-overlay">
+              <span>SHYAM BENEGAL: THE FILMMAKER WHO DEFINED SOCIAL STORYTELLING</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="Manmohan Singh">
+            <div class="instagram-overlay">
+              <span>MIG Manmohan Singh Founding father of New India</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop"
+              alt="India Relations">
+            <div class="instagram-overlay">
+              <span>India's Relations: From Kolkata to World</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop"
+              alt="Matrimonial">
+            <div class="instagram-overlay">
+              <span>MIG RISING MATRIMONIAL FRAUDS BOOST DEMAND FOR PRIVATE DETECTIVES</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1400&auto=format&fit=crop"
+              alt="LG Electronics">
+            <div class="instagram-overlay">
+              <span>LG ELECTRONICS, HDB DOMINATE 2025 IPO PIPELINE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <p>Copyright © 2025 <a href="https://mediaindia.eu" target="_blank">mediaindia.eu</a> - All rights
+            reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a href="about.html">About</a>
+          <span class="footer-separator">•</span>
+          <a href="magazines.html">Magazine Subscriptions</a>
+          <span class="footer-separator">•</span>
+          <a href="privacy.html">Privacy & Policy</a>
+          <span class="footer-separator">•</span>
+          <a href="sitemap.html">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Video Modal -->
+  <div id="videoModal" class="video-modal" style="display: none;">
+    <div class="video-modal-content">
+      <div class="video-modal-header">
+        <h3 id="videoTitle">Video Title</h3>
+        <button class="close-btn" onclick="closeVideoModal()">&times;</button>
+      </div>
+      <div class="video-container">
+        <iframe id="videoIframe" width="100%" height="315" src="" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const itemsPerPage = 8;
+      const articles = document.querySelectorAll(".article-card");
+      const totalPages = Math.ceil(articles.length / itemsPerPage);
+      let currentPage = 1;
+  
+      const paginationContainer = document.createElement("div");
+      paginationContainer.classList.add("pagination");
+      document.querySelector("main").appendChild(paginationContainer);
+  
+      function showPage(page) {
+        if (page < 1) page = 1;
+        if (page > totalPages) page = totalPages;
+        currentPage = page;
+  
+        articles.forEach((item, index) => {
+          const inRange = index >= (page - 1) * itemsPerPage && index < page * itemsPerPage;
+          item.style.display = inRange ? "flex" : "none";
+        });
+  
+        document.querySelectorAll(".pagination button.page-btn").forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.page == page);
+        });
+  
+        // disable prev/next when at first or last page
+        document.querySelector(".prev-btn").disabled = page === 1;
+        document.querySelector(".next-btn").disabled = page === totalPages;
+      }
+  
+      // Prev button
+      const prevBtn = document.createElement("button");
+      prevBtn.innerText = "Prev";
+      prevBtn.classList.add("prev-btn");
+      prevBtn.addEventListener("click", () => showPage(currentPage - 1));
+      paginationContainer.appendChild(prevBtn);
+  
+      // Page number buttons
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement("button");
+        btn.innerText = i;
+        btn.dataset.page = i;
+        btn.classList.add("page-btn");
+        btn.addEventListener("click", () => showPage(i));
+        paginationContainer.appendChild(btn);
+      }
+  
+      // Next button
+      const nextBtn = document.createElement("button");
+      nextBtn.innerText = "Next";
+      nextBtn.classList.add("next-btn");
+      nextBtn.addEventListener("click", () => showPage(currentPage + 1));
+      paginationContainer.appendChild(nextBtn);
+  
+      // show first page by default
+      showPage(1);
+    });
+  </script>
+  
+  
+  
+
+</body>
+
+</html>

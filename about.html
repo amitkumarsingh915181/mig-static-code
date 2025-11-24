@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Us - Media India Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <!-- Top bar -->
+ <div class="top-bar">
+  <div class="container flex-between">
+    <div>Media India Group</div>
+    <div>
+      <a href="https://www.facebook.com/Media.India.Group/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/mediaindiagroup" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/user/MediaIndiaGroup" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/media-india-group" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/media_india_group/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</div>
+
+ <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html"> <img src="mig-logo.png" alt="logo" style="width: 100px; height:auto;"></a>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="search-container">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="menu-toggle">☰</div>
+      <!-- Mobile nav (cloned or simplified) -->
+      <div class="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav-header">
+          <h3>Media India Group</h3>
+          <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+        </div>
+        <div class="mobile-search">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines +</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles +</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact +</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="section-title">About Us</div>
+      
+      <!-- The World's Window to India -->
+      <div class="about-section">
+        <h2>The World's Window to India</h2>
+        <p>Media India Group is a global platform founded in 2004, based in Europe and India, encompassing publishing, communication, consultation services and event management.</p>
+      </div>
+
+      <!-- Our Mission -->
+      <div class="about-section" id="mission">
+        <h2>Our Mission</h2>
+        <p>To bring news and analyses about India in various sectors. To connect Europe and India through consultancy services, operational support and events.</p>
+        <div class="mission-highlight">
+          <div class="mission-icon">
+            <i class="fas fa-globe" style="color: #e74c3c;"></i>
+          </div>
+          <p>A worldwide presence with a strong penetration in European markets</p>
+        </div>
+      </div>
+
+      <!-- Our Vision -->
+      <div class="about-section" id="vision">
+        <h2>Our Vision</h2>
+        <p>To act as a common platform for two continents to exchange business and cultural talks through different mediums.</p>
+        
+        <div class="vision-points">
+          <div class="vision-point">
+            <div class="vision-icon">
+              <i class="fas fa-paper-plane" style="color: #e74c3c;"></i>
+            </div>
+            <p>A wide high-profile network built through strong partnerships</p>
+          </div>
+          
+          <div class="vision-point">
+            <div class="vision-icon">
+              <i class="fas fa-network-wired" style="color: #e74c3c;"></i>
+            </div>
+            <p>A unique and strong communication tool, Media India Group has no competition</p>
+          </div>
+          
+          <div class="vision-point">
+            <div class="vision-icon">
+              <i class="fas fa-bullhorn" style="color: #e74c3c;"></i>
+            </div>
+            <p>A multicultural team specialized in media, consulting, marketing sales, etc. based in India and in Europe</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Services -->
+      <div class="about-section" id="services">
+        <h2>Our Services</h2>
+        
+        <!-- MIG Publishing & Digital -->
+        <div class="service-section">
+          <h3>MIG Publishing & Digital</h3>
+          <p>MIG publishes several magazines and manages various online informative/news platforms with a focus on Indian business, politics, society, tourism & culture.</p>
+          
+          <div class="magazines-section">
+            <h4>Our Magazines:</h4>
+            <ul>
+              <li><strong>INDES</strong> in French, <strong>India & You</strong> in English, <strong>Indien Fur Sie</strong> in German and <strong>Destino La India</strong> in Spanish are the only magazines promoting India with a reach spanning 45 countries in four continents.</li>
+              <li><strong>Biz@India</strong> (business magazine) in English, focus on the promotion of bilateral exchanges between India and the European Union in sectors like Food processing, Aeronautics, Skill Development etc.</li>
+              <li><strong>India Outbound</strong> is the only B2B travel magazine that focuses on promotion of international destination & products in India.</li>
+              <li>Media India also published in collaboration with the Airports Authority of India, the only business magazine on the Civil Aviation industry in India, the <strong>Airports India Business Magazine (AIBM)</strong>. As well as the official magazine of the Embassy of India in French language "Nouvelles de l'Inde".</li>
+            </ul>
+          </div>
+          
+          <div class="websites-section">
+            <h4>Our websites:</h4>
+            <ul>
+              <li><strong>www.mediaindia.eu:</strong> analysis, reports and online TV on Indian business, politics, society, tourism & culture.</li>
+              <li><strong>www.indiaoutbound.info:</strong> analysis, reports and online TV on B2B travel focused on foreign destinations and products.</li>
+            </ul>
+          </div>
+          
+          <div class="magazine-covers">
+            <div class="cover-grid">
+                        <div class="cover-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2025/07/IO-JULY-AUG-COVER-370x523.jpg" alt="India Outbound Magazine">
+            <p>India Outbound</p>
+          </div>
+          <div class="cover-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2025/08/cover-image-370x523.jpg" alt="India & You Magazine">
+            <p>India & You</p>
+          </div>
+          <div class="cover-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/09/Indes_mag_cover-370x523.jpg" alt="INDES Magazine">
+            <p>INDES</p>
+          </div>
+          <div class="cover-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2019/01/Destino-La-India-Jan-Feb_2019-370x523.jpg" alt="Destino La India Magazine">
+            <p>Destino La India</p>
+          </div>
+          <div class="cover-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" alt="BIZ@INDIA Magazine">
+            <p>BIZ@INDIA</p>
+          </div>
+          <div class="cover-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2025/03/Indien-Fur-Sie-Mar-Apr-2025_compressed-2-370x523.png" alt="Indien Für Sie Magazine">
+            <p>Indien Für Sie</p>
+          </div>
+          <div class="cover-item">
+            <img src="https://mediaindia.eu/wp-content/uploads/2025/08/cover-image-370x523.jpg" alt="AIBM Magazine">
+            <p>AIBM</p>
+          </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MIG Events -->
+        <div class="service-section">
+          <h3>MIG Events</h3>
+          <p>Through an active collaboration with various business organizations, Media India Group is present at the leading events across the world like tourism fairs (ITB in Berlin, WTM in London, Top Resa in France, MAP in Paris, Fitur in Spain, Atout France), food fairs (SIAL, ANUGA), Indian diaspora event organised by Ministry of Overseas and Indian Affairs - Pravasi Bharatiya Divas (PBD), Cinema - Cannes Film Festival and business events (OECD, EICC and Paris Air Show).</p>
+          <p>During the PBD, we organize our own events i.e Francophone evening for French-speaking diaspora and Dialogue with India in an association with GOPIO, an umbrella organisation for Indian diaspora.</p>
+          <a href="events.html" class="btn btn-primary">VIEW OUR EVENTS</a>
+        </div>
+
+        <!-- MIG Consulting -->
+        <div class="service-section">
+          <h3>MIG Consulting</h3>
+          <p>Media India Group provides a unique service to companies in India and Europe to meet their promotion, branding and other strategic requirements in India and the EU. As bilateral relations and trade improve, businesses on both the sides look for solutions that are cost-effective, efficient and transparent in order to increase their markets. MIG offers competitive, efficient, time-bound and deep penetrating solutions to enhance the visibility, sales and branding in these markets in collaboration with well known brands.</p>
+        </div>
+      </div>
+
+      <!-- Our Brands -->
+      <div class="about-section" id="brands">
+        <h2>Our Brands</h2>
+        <div class="brand-section">
+          <div class="brand-logo">
+            <img src="/eife_logo.png" alt="EIFE Logo">
+          </div>
+          <div class="brand-content">
+            <h3>EIFE</h3>
+            <p>EIFE (Europe India Foundation for Excellence) was created with the objective of promoting skill development, education and R&D in India with a focus on Europe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-main">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <div class=""><img src="mig-logo-foother.png" alt="logo" style="width: 120px; height:auto;"></div>
+        </div>
+        <p class="footer-description">Media India Group is a global platform founded in 2004, based in Europe
+          and India, encompassing publishing, communication, consultation services and event management.</p>
+        <div class="footer-contact">
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Head Office :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>47, AVENUE DE LA REPUBLIQUE, 75011, PARIS, FRANCE</span>
+          </div>
+          <!-- <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +33 (01) 43573933</span>
+          </div> -->
+
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Communication Address :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>607, DLF Tower-A, Jasola District Centre, Jasola, New Delhi India</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +91-11-41065972</span>
+          </div>
+        </div>
+        
+        <div class="footer-social">
+          <a href="https://www.facebook.com/Media.India.Group/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/mediaindiagroup" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/user/MediaIndiaGroup" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/media-india-group" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/media_india_group/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">RECENT POSTS</h4>
+        <div class="recent-posts">
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1499914485622-a88fac536970?q=80&w=1400&auto=format&fit=crop"
+              alt="Food system">
+            <div class="post-info">
+              <h5>Scientists urge food system overhaul to curb global land degradation</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Anantara">
+            <div class="post-info">
+              <h5>Anantara Jewel Bagh: Building momentum with weddings, FITs & luxury</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">CATEGORIES</h4>
+        <ul class="footer-categories">
+          <li><a href="articles.html#business">BUSINESS</a></li>
+          <li><a href="articles.html#politics">POLITICS</a></li>
+          <li><a href="articles.html#tourism">TOURISM</a></li>
+          <li><a href="articles.html#culture">CULTURE</a></li>
+          <li><a href="articles.html#environment">ENVIRONMENT</a></li>
+          <li><a href="articles.html#society">SOCIETY</a></li>
+          <li><a href="articles.html#cinema">CINEMA</a></li>
+          <li><a href="articles.html#diaspora">INDIAN DIASPORA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">INSTAGRAM</h4>
+        <div class="instagram-grid">
+          <div class="instagram-item">
+            <img src="https://source.unsplash.com/80x80/?concert,music" alt="Concerts 2025">
+            <div class="instagram-overlay">
+              <span>FROM COLDPLAY TO LOLLAPALOOZA: INTERNATIONAL MUSIC CONCERTS IN INDIA IN 2025</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Shyam Benegal">
+            <div class="instagram-overlay">
+              <span>SHYAM BENEGAL: THE FILMMAKER WHO DEFINED SOCIAL STORYTELLING</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="Manmohan Singh">
+            <div class="instagram-overlay">
+              <span>MIG Manmohan Singh Founding father of New India</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop"
+              alt="India Relations">
+            <div class="instagram-overlay">
+              <span>India's Relations: From Kolkata to World</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop"
+              alt="Matrimonial">
+            <div class="instagram-overlay">
+              <span>MIG RISING MATRIMONIAL FRAUDS BOOST DEMAND FOR PRIVATE DETECTIVES</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1400&auto=format&fit=crop"
+              alt="LG Electronics">
+            <div class="instagram-overlay">
+              <span>LG ELECTRONICS, HDB DOMINATE 2025 IPO PIPELINE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <p>Copyright © 2025 <a href="https://mediaindia.eu" target="_blank">mediaindia.eu</a> - All rights
+            reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a href="about.html">About</a>
+          <span class="footer-separator">•</span>
+          <a href="magazines.html">Magazine Subscriptions</a>
+          <span class="footer-separator">•</span>
+          <a href="privacy.html">Privacy & Policy</a>
+          <span class="footer-separator">•</span>
+          <a href="sitemap.html">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>

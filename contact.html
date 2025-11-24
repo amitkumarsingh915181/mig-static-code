@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - Media India Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Top bar -->
+<div class="top-bar">
+  <div class="container flex-between">
+    <div>Media India Group</div>
+    <div>
+      <a href="https://www.facebook.com/Media.India.Group/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com/mediaindiagroup" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/user/MediaIndiaGroup" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/media-india-group" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/media_india_group/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</div>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html"> <img src="mig-logo.png" alt="logo" style="width: 100px; height:auto;"></a>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="search-container">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="menu-toggle">☰</div>
+      <!-- Mobile nav (cloned or simplified) -->
+      <div class="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav-header">
+          <h3>Media India Group</h3>
+          <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+        </div>
+        <div class="mobile-search">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines +</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles +</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact +</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <!-- <div class="section-title">Contact Us</div> -->
+      
+      <!-- Contact Overview -->
+      <div class="contact-overview">
+        <div class="contact-intro">
+          <h2>Get in Touch</h2>
+          <p>Media India Group welcomes your inquiries. Whether you want to write for us, work with us, advertise, or partner with us, we're here to help you connect with India and Europe.</p>
+        </div>
+        
+        <!-- Quick Contact Info -->
+        <div class="quick-contact">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-info">
+              <h4>Head Office</h4>
+              <p>47, Avenue de la Republique<br>75011, Paris, France</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-info">
+              <h4>Phone</h4>
+              <p>+33 (01) 43573933 , +91-11-41065972</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-info">
+              <h4>Email</h4>
+              <p>contact@mediaindia.eu</p>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-info">
+              <h4>Business Hours</h4>
+              <p>Mon-Fri: 10:00 AM - 7:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Forms Section -->
+      <div class="contact-forms-section">
+        <div class="forms-nav">
+          <button class="form-tab active" data-form="general">General Inquiry</button>
+          <button class="form-tab" data-form="write">Write for MIG</button>
+          <button class="form-tab" data-form="work">Work for MIG</button>
+          <button class="form-tab" data-form="advertise">Advertise with MIG</button>
+          <button class="form-tab" data-form="partner">Partner with MIG</button>
+        </div>
+
+        <!-- General Contact Form -->
+        <div class="contact-form-container active" id="general">
+          <div class="form-content">
+            <h3>General Inquiry</h3>
+            <p>Have a general question or want to learn more about Media India Group? Send us a message and we'll get back to you promptly.</p>
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Write for MIG Form -->
+        <div class="contact-form-container" id="write">
+          <div class="form-content">
+            <h3>Write for MIG</h3>
+            <p>Join our team of contributors and share your insights about India with our global audience. We welcome writers, journalists, and experts in various fields.</p>
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="write-name">Full Name *</label>
+                  <input type="text" id="write-name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="write-email">Email Address *</label>
+                  <input type="email" id="write-email" name="email" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="write-phone">Phone Number</label>
+                  <input type="tel" id="write-phone" name="phone">
+                </div>
+                <div class="form-group">
+                  <label for="write-location">Location</label>
+                  <input type="text" id="write-location" name="location" placeholder="City, Country">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="write-expertise">Areas of Expertise *</label>
+                <select id="write-expertise" name="expertise" required>
+                  <option value="">Select your expertise</option>
+                  <option value="business">Business & Economy</option>
+                  <option value="politics">Politics & Governance</option>
+                  <option value="tourism">Tourism & Travel</option>
+                  <option value="culture">Culture & Arts</option>
+                  <option value="technology">Technology</option>
+                  <option value="environment">Environment</option>
+                  <option value="society">Society & Lifestyle</option>
+                  <option value="cinema">Cinema & Entertainment</option>
+                  <option value="diaspora">Indian Diaspora</option>
+                  <option value="education">Education</option>
+                  <option value="defence">Defence & Aerospace</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="write-experience">Writing Experience</label>
+                <textarea id="write-experience" name="experience" rows="4" placeholder="Tell us about your writing experience, publications, and why you'd like to write for MIG"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="write-samples">Writing Samples</label>
+                <textarea id="write-samples" name="samples" rows="3" placeholder="Links to your published work or writing samples"></textarea>
+              </div>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-pen-fancy"></i>
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Work for MIG Form -->
+        <div class="contact-form-container" id="work">
+          <div class="form-content">
+            <h3>Work for MIG</h3>
+            <p>Join our multicultural team and be part of a global media platform connecting India with Europe. We offer opportunities in various departments.</p>
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="work-name">Full Name *</label>
+                  <input type="text" id="work-name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="work-email">Email Address *</label>
+                  <input type="email" id="work-email" name="email" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="work-phone">Phone Number *</label>
+                  <input type="tel" id="work-phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                  <label for="work-location">Current Location *</label>
+                  <input type="text" id="work-location" name="location" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="work-position">Position of Interest *</label>
+                <select id="work-position" name="position" required>
+                  <option value="">Select position</option>
+                  <option value="editor">Editor</option>
+                  <option value="journalist">Journalist</option>
+                  <option value="photographer">Photographer</option>
+                  <option value="designer">Graphic Designer</option>
+                  <option value="marketing">Marketing Specialist</option>
+                  <option value="sales">Sales Representative</option>
+                  <option value="digital">Digital Media Specialist</option>
+                  <option value="events">Events Coordinator</option>
+                  <option value="consulting">Consulting</option>
+                  <option value="internship">Internship</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="work-experience">Relevant Experience *</label>
+                <textarea id="work-experience" name="experience" rows="4" required placeholder="Describe your relevant experience and skills"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="work-motivation">Why MIG? *</label>
+                <textarea id="work-motivation" name="motivation" rows="3" required placeholder="Why would you like to work for Media India Group?"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="work-resume">Resume/CV</label>
+                <input type="file" id="work-resume" name="resume" accept=".pdf,.doc,.docx">
+                <small>Accepted formats: PDF, DOC, DOCX (Max 5MB)</small>
+              </div>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-briefcase"></i>
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Advertise with MIG Form -->
+        <div class="contact-form-container" id="advertise">
+          <div class="form-content">
+            <h3>Advertise with MIG</h3>
+            <p>Reach our global audience across multiple platforms and magazines. Our advertising solutions help you connect with the Indian diaspora and European markets.</p>
+          <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="advertise-name">Contact Person *</label>
+                  <input type="text" id="advertise-name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="advertise-company">Company/Organization *</label>
+                  <input type="text" id="advertise-company" name="company" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="advertise-email">Email Address *</label>
+                  <input type="email" id="advertise-email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="advertise-phone">Phone Number *</label>
+                  <input type="tel" id="advertise-phone" name="phone" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="advertise-platform">Preferred Platform *</label>
+                <select id="advertise-platform" name="platform" required>
+                  <option value="">Select platform</option>
+                  <option value="magazines">Print Magazines</option>
+                  <option value="digital">Digital Platforms</option>
+                  <option value="events">Events & Exhibitions</option>
+                  <option value="social">Social Media</option>
+                  <option value="comprehensive">Comprehensive Package</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="advertise-budget">Budget Range</label>
+                <select id="advertise-budget" name="budget">
+                  <option value="">Select budget range</option>
+                  <option value="under-5k">Under €5,000</option>
+                  <option value="5k-10k">€5,000 - €10,000</option>
+                  <option value="10k-25k">€10,000 - €25,000</option>
+                  <option value="25k-50k">€25,000 - €50,000</option>
+                  <option value="over-50k">Over €50,000</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="advertise-campaign">Campaign Details *</label>
+                <textarea id="advertise-campaign" name="campaign" rows="4" required placeholder="Describe your advertising campaign, target audience, and objectives"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="advertise-timeline">Timeline</label>
+                <textarea id="advertise-timeline" name="timeline" rows="2" placeholder="Preferred campaign timeline and duration"></textarea>
+              </div>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-ad"></i>
+                Request Quote
+              </button>
+          </form>
+          </div>
+        </div>
+
+        <!-- Partner with MIG Form -->
+        <div class="contact-form-container" id="partner">
+          <div class="form-content">
+            <h3>Partner with MIG</h3>
+            <p>Explore partnership opportunities with Media India Group. We collaborate with organizations, institutions, and businesses to create meaningful connections between India and Europe.</p>
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="partner-name">Contact Person *</label>
+                  <input type="text" id="partner-name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="partner-organization">Organization *</label>
+                  <input type="text" id="partner-organization" name="organization" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="partner-email">Email Address *</label>
+                  <input type="email" id="partner-email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="partner-phone">Phone Number *</label>
+                  <input type="tel" id="partner-phone" name="phone" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="partner-type">Partnership Type *</label>
+                <select id="partner-type" name="type" required>
+                  <option value="">Select partnership type</option>
+                  <option value="media">Media Partnership</option>
+                  <option value="events">Events Collaboration</option>
+                  <option value="consulting">Consulting Services</option>
+                  <option value="education">Education & Training</option>
+                  <option value="research">Research & Development</option>
+                  <option value="business">Business Development</option>
+                  <option value="cultural">Cultural Exchange</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="partner-description">Partnership Proposal *</label>
+                <textarea id="partner-description" name="description" rows="5" required placeholder="Describe your partnership proposal, objectives, and how we can collaborate"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="partner-benefits">Mutual Benefits</label>
+                <textarea id="partner-benefits" name="benefits" rows="3" placeholder="What benefits can both organizations expect from this partnership?"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="partner-timeline">Proposed Timeline</label>
+                <textarea id="partner-timeline" name="timeline" rows="2" placeholder="Proposed timeline for partnership development and implementation"></textarea>
+              </div>
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-handshake"></i>
+                Submit Partnership Proposal
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Office Locations -->
+      <div class="office-locations">
+        <h2>Our Offices</h2>
+        <div class="locations-grid">
+          <div class="location-card">
+            <div class="location-header">
+              <i class="fas fa-building"></i>
+              <h3>Head Office</h3>
+            </div>
+            <div class="location-details">
+              <p><strong>Address:</strong><br>47, Avenue de la Republique 75011, Paris, France</p>
+              <p><strong>Phone:</strong> +33 (01) 43573933</p>
+              <p><strong>Email:</strong> contact@mediaindia.eu </p>
+            </div>
+          </div>
+          
+          <div class="location-card">
+            <div class="location-header">
+              <i class="fas fa-building"></i>
+              <h3> Communication Address </h3>
+            </div>
+            <div class="location-details">
+              <p><strong>Address:</strong><br>607, DLF Tower-A, Jasola District Centre, Jasola, New Delhi India</p>
+              <p><strong>Phone:</strong> +91-11-41065972</p>
+              <p><strong>Email:</strong> contact@mediaindia.eu</p>
+            </div>
+          </div>
+
+          <div class="location-card">
+            <div class="location-header">
+              <i class="fas fa-building"></i>
+              <h3>Registered Office</h3>
+            </div>
+            <div class="location-details">
+              <p><strong>Address:</strong><br>1226, DLF Tower-A, Jasola District Centre, Jasola, New Delhi India</p>
+              <p><strong>Phone:</strong> +91-11-41065972 </p>
+              <p><strong>Email:</strong> contact@mediaindia.eu </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media & Newsletter -->
+      <div class="contact-cta">
+        <div class="cta-section">
+          <h3>Stay Connected</h3>
+          <p>Follow us on social media for the latest updates, news, and insights about India and Europe.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/Media.India.Group/" target="_blank" class="social-link">
+              <i class="fab fa-facebook"></i>
+              <span>Facebook</span>
+            </a>
+            <a href="https://twitter.com/mediaindiagroup" target="_blank" class="social-link">
+              <i class="fab fa-twitter"></i>
+              <span>Twitter</span>
+            </a>
+            <a href="https://www.linkedin.com/company/media-india-group" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/media_india_group/" target="_blank" class="social-link">
+              <i class="fab fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/user/MediaIndiaGroup" target="_blank" class="social-link">
+              <i class="fab fa-youtube"></i>
+              <span>YouTube</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="cta-section">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter for exclusive content, event updates, and industry insights.</p>
+          <form class="newsletter-form">
+            <div class="newsletter-input">
+              <input type="email" placeholder="Enter your email address" required>
+              <button type="submit">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-main">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <div class=""><img src="mig-logo-foother.png" alt="logo" style="width: 120px; height:auto;"></div>
+        </div>
+        <p class="footer-description">Media India Group is a global platform founded in 2004, based in Europe
+          and India, encompassing publishing, communication, consultation services and event management.</p>
+        <div class="footer-contact">
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Head Office :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>47, AVENUE DE LA REPUBLIQUE, 75011, PARIS, FRANCE</span>
+          </div>
+          <!-- <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +33 (01) 43573933</span>
+          </div> -->
+
+          <div class="contact-item">
+           <span style="font-size: 1rem; font-weight: 600;"> Communication Address :</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-home"></i>
+            <span>607, DLF Tower-A, Jasola District Centre, Jasola, New Delhi India</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>Tel: +91-11-41065972</span>
+          </div>
+        </div>
+        
+        <div class="footer-social">
+          <a href="https://www.facebook.com/Media.India.Group/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/mediaindiagroup" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.youtube.com/user/MediaIndiaGroup" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/company/media-india-group" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/media_india_group/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" target="_blank"><i
+              class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">RECENT POSTS</h4>
+        <div class="recent-posts">
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1499914485622-a88fac536970?q=80&w=1400&auto=format&fit=crop"
+              alt="Food system">
+            <div class="post-info">
+              <h5>Scientists urge food system overhaul to curb global land degradation</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Anantara">
+            <div class="post-info">
+              <h5>Anantara Jewel Bagh: Building momentum with weddings, FITs & luxury</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+          <div class="post-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="FAITH Conclave">
+            <div class="post-info">
+              <h5>FAITH Conclave 2025 aims for USD 3 trillion tourism economy by 2047</h5>
+              <span class="post-date">August 13, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">CATEGORIES</h4>
+        <ul class="footer-categories">
+          <li><a href="articles.html#business">BUSINESS</a></li>
+          <li><a href="articles.html#politics">POLITICS</a></li>
+          <li><a href="articles.html#tourism">TOURISM</a></li>
+          <li><a href="articles.html#culture">CULTURE</a></li>
+          <li><a href="articles.html#environment">ENVIRONMENT</a></li>
+          <li><a href="articles.html#society">SOCIETY</a></li>
+          <li><a href="articles.html#cinema">CINEMA</a></li>
+          <li><a href="articles.html#diaspora">INDIAN DIASPORA</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-title">INSTAGRAM</h4>
+        <div class="instagram-grid">
+          <div class="instagram-item">
+            <img src="https://source.unsplash.com/80x80/?concert,music" alt="Concerts 2025">
+            <div class="instagram-overlay">
+              <span>FROM COLDPLAY TO LOLLAPALOOZA: INTERNATIONAL MUSIC CONCERTS IN INDIA IN 2025</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1400&auto=format&fit=crop"
+              alt="Shyam Benegal">
+            <div class="instagram-overlay">
+              <span>SHYAM BENEGAL: THE FILMMAKER WHO DEFINED SOCIAL STORYTELLING</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=1400&auto=format&fit=crop"
+              alt="Manmohan Singh">
+            <div class="instagram-overlay">
+              <span>MIG Manmohan Singh Founding father of New India</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1400&auto=format&fit=crop"
+              alt="India Relations">
+            <div class="instagram-overlay">
+              <span>India's Relations: From Kolkata to World</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop"
+              alt="Matrimonial">
+            <div class="instagram-overlay">
+              <span>MIG RISING MATRIMONIAL FRAUDS BOOST DEMAND FOR PRIVATE DETECTIVES</span>
+            </div>
+          </div>
+          <div class="instagram-item">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1400&auto=format&fit=crop"
+              alt="LG Electronics">
+            <div class="instagram-overlay">
+              <span>LG ELECTRONICS, HDB DOMINATE 2025 IPO PIPELINE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-content">
+        <div class="footer-left">
+          <p>Copyright © 2025 <a href="https://mediaindia.eu" target="_blank">mediaindia.eu</a> - All rights
+            reserved.</p>
+        </div>
+        <div class="footer-right">
+          <a href="about.html">About</a>
+          <span class="footer-separator">•</span>
+          <a href="magazines.html">Magazine Subscriptions</a>
+          <span class="footer-separator">•</span>
+          <a href="privacy.html">Privacy & Policy</a>
+          <span class="footer-separator">•</span>
+          <a href="sitemap.html">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Modal -->
+  <div id="videoModal" class="video-modal" style="display: none;">
+    <div class="video-modal-content">
+      <div class="video-modal-header">
+        <h3 id="videoTitle">Video Title</h3>
+        <button class="close-btn" onclick="closeVideoModal()">&times;</button>
+      </div>
+      <div class="video-container">
+        <iframe 
+          id="videoIframe"
+          width="100%" 
+          height="315" 
+          src="" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

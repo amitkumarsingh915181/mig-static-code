@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MIGTV - Media India Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container flex-between">
+      <div>
+        <a href="https://www.facebook.com/Media.India.Group/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/mediaindiagroup" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/MediaIndiaGroup" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/media-india-group" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/media_india_group/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+   <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html"> <img src="mig-logo.png" alt="logo" style="width: 100px; height:auto;"></a>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="search-container">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="menu-toggle">☰</div>
+      <!-- Mobile nav (cloned or simplified) -->
+      <div class="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav-header">
+          <h3>Media India Group</h3>
+          <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+        </div>
+        <div class="mobile-search">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines +</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles +</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact +</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+     <!-- MIGTV strip -->
+  <section class="migtv" role="region" aria-labelledby="migtv-heading">
+    <div class="wrap">
+      <div class="migtv-head">
+        <div class="section-hd">
+          <h2 id="migtv-heading" class="migtv-title">MIGTV</h2>
+        </div>
+        <div class="migtv-ctrls">
+          <!-- Buttons -->
+          <button class="migtv-prev" aria-label="Previous video">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <button class="migtv-next" aria-label="Next video">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="swiper migtv-swiper" aria-roledescription="carousel" aria-live="polite">
+        <div class="swiper-wrapper">
+          <!-- Video card slides -->
+          <div class="swiper-slide">
+            <article class="video-card" tabindex="0">
+              <a class="video-media" href="#" aria-label="Play: Jaipur Festival Highlights">
+                <img loading="lazy" src="https://picsum.photos/640/360?random=41"
+                  alt="Video thumbnail: Jaipur festival">
+                <span class="play" aria-hidden="true">▶</span>
+              </a>
+              <h3 class="video-title"><a href="#">Jaipur Festival Highlights</a></h3>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="video-card" tabindex="0">
+              <a class="video-media" href="#" aria-label="Play: Inside India’s clean tech boom">
+                <img loading="lazy" src="https://picsum.photos/640/360?random=42" alt="Video thumbnail: clean tech">
+                <span class="play" aria-hidden="true">▶</span>
+              </a>
+              <h3 class="video-title"><a href="#">Inside India’s Clean Tech Boom</a></h3>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="video-card" tabindex="0">
+              <a class="video-media" href="#" aria-label="Play: Himalayan road trip in winter">
+                <img loading="lazy" src="https://picsum.photos/640/360?random=43"
+                  alt="Video thumbnail: Himalayan road trip">
+                <span class="play" aria-hidden="true">▶</span>
+              </a>
+              <h3 class="video-title"><a href="#">Himalayan Road Trip in Winter</a></h3>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="video-card" tabindex="0">
+              <a class="video-media" href="#" aria-label="Play: Monsoon kitchens">
+                <img loading="lazy" src="https://picsum.photos/640/360?random=44"
+                  alt="Video thumbnail: Monsoon kitchens">
+                <span class="play" aria-hidden="true">▶</span>
+              </a>
+              <h3 class="video-title"><a href="#">Monsoon Kitchens</a></h3>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="video-card" tabindex="0">
+              <a class="video-media" href="#" aria-label="Play: Space start-ups from India">
+                <img loading="lazy" src="https://picsum.photos/640/360?random=45" alt="Video thumbnail: launch pad">
+                <span class="play" aria-hidden="true">▶</span>
+              </a>
+              <h3 class="video-title"><a href="#">Space Start-ups from India</a></h3>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Categories Row -->
+    <!-- <section class="container">
+      <div class="section-title">CATEGORIES</div>
+      <div class="home-issues">
+        <div class="issues-row">
+          <a href="#" title="Business"><img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=300&auto=format&fit=crop" alt="Business"><p class="small center">Business</p></a>
+          <a href="#" title="Cinema"><img src="https://images.unsplash.com/photo-1519750783826-e2420f4d687f?q=80&w=300&auto=format&fit=crop" alt="Cinema"><p class="small center">Cinema</p></a>
+          <a href="#" title="Culture"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=300&auto=format&fit=crop" alt="Culture"><p class="small center">Culture</p></a>
+          <a href="#" title="Environment"><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=300&auto=format&fit=crop" alt="Environment"><p class="small center">Environment</p></a>
+          <a href="#" title="Lifestyle"><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=300&auto=format&fit=crop" alt="Lifestyle"><p class="small center">Lifestyle</p></a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Feature/Social tabs with grids -->
+    <section class="container">
+      <div class="events-tabs">
+        <div class="tab-nav">
+          <button class="tab-btn active" data-tab="migtv-feature">Feature</button>
+          <button class="tab-btn" data-tab="migtv-social">Social Media</button>
+        </div>
+
+        <div id="migtv-feature" class="tab-content active">
+          <div class="list-grid">
+            <article class="card media">
+              <div class="img"><img src="https://mediaindia.eu/wp-content/uploads/2023/08/Teresa-Mera-634x430.jpg" alt="Interview with Teresa Mera"></div>
+              <div class="pad"><span class="tag">BUSINESS</span><h3 class="title">Interview with Teresa Mera, Vice Minister of Commerce of Peru</h3><div class="meta">August 23, 2023</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://mediaindia.eu/wp-content/uploads/2023/07/Indian-Ambassador-to-France-634x430.jpg" alt="Ambassador to France"></div>
+              <div class="pad"><span class="tag">POLITICS</span><h3 class="title">Indian Ambassador to France talks to MIG on PM Modi’s visit to Paris</h3><div class="meta">July 12, 2023</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://mediaindia.eu/wp-content/uploads/2023/06/VivaTech-Paris-634x430.jpg" alt="VivaTech Paris"></div>
+              <div class="pad"><span class="tag">BUSINESS</span><h3 class="title">Future of Sport – India at VivaTech, Paris 2023</h3><div class="meta">June 14, 2023</div></div>
+            </article>
+
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1520975932065-59d7d8844a50?q=80&w=800&auto=format&fit=crop" alt="Tribals struggle"></div>
+              <div class="pad"><span class="tag">POLITICS</span><h3 class="title">Tribals’ struggle for independence continues</h3><div class="meta">July 19, 2022</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=800&auto=format&fit=crop" alt="State of Women in India"></div>
+              <div class="pad"><span class="tag">SOCIAL MEDIA VIDEO</span><h3 class="title">State of Women in India (1947–2022)</h3><div class="meta">June 2022</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1573167243872-43c6433b9d40?q=80&w=800&auto=format&fit=crop" alt="Interview with Rajneesh Kumar"></div>
+              <div class="pad"><span class="tag">BUSINESS</span><h3 class="title">Interview with Rajneesh Kumar</h3><div class="meta">June 2023</div></div>
+            </article>
+
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1543610892-0b1f7e6a6a28?q=80&w=800&auto=format&fit=crop" alt="Shinzo Abe"></div>
+              <div class="pad"><span class="tag">POLITICS</span><h3 class="title">Shinzo Abe: Longest serving PM of Japan shot dead</h3><div class="meta">July 8, 2022</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1599058917212-d750089bc03f?q=80&w=800&auto=format&fit=crop" alt="Yoga Day"></div>
+              <div class="pad"><span class="tag">LIFESTYLE</span><h3 class="title">International Yoga Day 2022: Five Yoga Postures</h3><div class="meta">June 21, 2022</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=800&auto=format&fit=crop" alt="Anti-child Labour Day"></div>
+              <div class="pad"><span class="tag">SOCIETY</span><h3 class="title">Anti-Child Labour Day — June 12, 2022</h3><div class="meta">June 12, 2022</div></div>
+            </article>
+          </div>
+        </div>
+
+        <div id="migtv-social" class="tab-content">
+          <div class="list-grid">
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1518674660708-6b6d6f1a2e8b?q=80&w=800&auto=format&fit=crop" alt="Amitabh Bachchan"></div>
+              <div class="pad"><span class="tag">SOCIAL MEDIA VIDEO</span><h3 class="title">Cinematic journey of Amitabh Bachchan</h3><div class="meta">Oct 11, 2021</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=800&auto=format&fit=crop" alt="Vaccination camp"></div>
+              <div class="pad"><span class="tag">SOCIETY</span><h3 class="title">Vaccination camp for transgenders</h3><div class="meta">Sep 22, 2021</div></div>
+            </article>
+            <article class="card media">
+              <div class="img"><img src="https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=800&auto=format&fit=crop" alt="Culture video"></div>
+              <div class="pad"><span class="tag">CULTURE</span><h3 class="title">Celebrating Raahgiri Day at Connaught Place, Delhi</h3><div class="meta">Nov 1, 2023</div></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p>Copyright © 2025 <a href="https://mediaindia.eu" target="_blank">mediaindia.eu</a> - All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <a href="about.html">About</a>
+        <span class="footer-separator">•</span>
+        <a href="magazines.html">Magazine Subscriptions</a>
+        <span class="footer-separator">•</span>
+        <a href="privacy.html">Privacy & Policy</a>
+        <span class="footer-separator">•</span>
+        <a href="sitemap.html">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video Modal -->
+  <div id="videoModal" class="video-modal" style="display: none;">
+    <div class="video-modal-content">
+      <div class="video-modal-header">
+        <h3 id="videoTitle">Video Title</h3>
+        <button class="close-btn" onclick="closeVideoModal()">&times;</button>
+      </div>
+      <div class="video-container">
+        <iframe 
+          id="videoIframe"
+          width="100%" 
+          height="315" 
+          src="" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

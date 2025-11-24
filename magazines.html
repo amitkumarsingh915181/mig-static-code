@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Magazines - Media India Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container flex-between">
+      <div>
+        <a href="https://www.facebook.com/Media.India.Group/" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/mediaindiagroup" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/MediaIndiaGroup" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/media-india-group" title="Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/media_india_group/" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://whatsapp.com/channel/0029VaunX3lFSAsyQJ7QS113" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+   <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html"> <img src="mig-logo.png" alt="logo" style="width: 100px; height:auto;"></a>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="search-container">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+
+      <div class="menu-toggle">☰</div>
+      <!-- Mobile nav (cloned or simplified) -->
+      <div class="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav-header">
+          <h3>Media India Group</h3>
+          <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+        </div>
+        <div class="mobile-search">
+          <form class="search-form">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="Dropd">
+          <a href="magazines.html" class="dd-toggel">Magazines +</a>
+          <div class="Dropd-Menu">
+            <a href="indes.html">INDES</a>
+            <a href="https://mediaindia.eu/magazine/india-you/">INDIA & YOU</a>
+            <a href="la-india.html">DESTINO LA INDIA</a>
+            <a href="indien-fur-sie.html">INDIEN FUR SIE</a>
+            <a href="biz-india.html">BIZ@INDIA</a>
+           <a href="http://indiaoutbound.info" target="_blank">India Outbound</a>
+          </div>
+        </div>
+        <a href="events.html">Events</a>
+        <a href="migtv.html">MIGTV</a>
+        <div class="Dropd">
+          <a href="articles.html" class="dd-toggel">Articles +</a>
+          <div class="Dropd-Menu">
+            <a href="articles.html#business">BUSINESS</a>
+            <a href="articles.html#politics">POLITICS</a>
+            <a href="articles.html#tourism">TOURISM</a>
+            <a href="articles.html#culture">CULTURE</a>
+            <a href="articles.html#environment">ENVIRONMENT</a>
+            <a href="articles.html#society">SOCIETY</a>
+            <a href="articles.html#cinema">CINEMA</a>
+            <a href="articles.html#diaspora">INDIAN DIASPORA</a>
+            <a href="articles.html#education">EDUCATION</a>
+            <a href="articles.html#technology">TECHNOLOGY</a>
+            <a href="articles.html#defence">DEFENCE & AEROSPACE</a>
+          </div>
+        </div>
+        <div class="Dropd">
+          <a href="contact.html" class="dd-toggel">Contact +</a>
+          <div class="Dropd-Menu">
+            <a href="contact.html#write">WRITE FOR MIG</a>
+            <a href="contact.html#work">WORK FOR MIG</a>
+            <a href="contact.html#advertise">ADVERTISE WITH MIG</a>
+            <a href="contact.html#partner">PARTNER WITH MIG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Magazine Coverflow Slider -->
+    <section class="container">
+      <div class="section-title">Latest Issues</div>
+      <div class="swiper magazine-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="width:300px">
+            <a class="mag-cover" data-caption="India Outbound — Jul–Aug 2025" href="https://mediaindia.eu/wp-content/uploads/2025/07/IO-JULY-AUG-COVER-370x523.jpg" target="_blank">
+              <img src="https://mediaindia.eu/wp-content/uploads/2025/07/IO-JULY-AUG-COVER-370x523.jpg" alt="India Outbound Jul–Aug 2025">
+            </a>
+          </div>
+          <div class="swiper-slide" style="width:300px">
+            <a class="mag-cover" data-caption="INDES" href="https://mediaindia.eu/wp-content/uploads/2019/09/Indes_mag_cover-370x523.jpg" target="_blank">
+              <img src="https://mediaindia.eu/wp-content/uploads/2019/09/Indes_mag_cover-370x523.jpg" alt="INDES 2025">
+            </a>
+          </div>
+          <div class="swiper-slide" style="width:300px">
+            <a class="mag-cover" data-caption="India & You" href="https://mediaindia.eu/wp-content/uploads/2025/08/cover-image-370x523.jpg" target="_blank" title="India & You 2025">
+              <img src="https://mediaindia.eu/wp-content/uploads/2025/08/cover-image-370x523.jpg" alt="India & You 2025">
+            </a>
+          </div>
+          <div class="swiper-slide" style="width:300px">
+            <a class="mag-cover" data-caption="Destino La India" href="https://mediaindia.eu/wp-content/uploads/2019/01/Destino-La-India-Jan-Feb_2019-370x523.jpg" target="_blank" title="Destino La India">
+              <img src="https://mediaindia.eu/wp-content/uploads/2019/01/Destino-La-India-Jan-Feb_2019-370x523.jpg" alt="Destino La India">
+            </a>
+          </div>
+          <div class="swiper-slide" style="width:300px">
+            <a class="mag-cover" data-caption="Indien Für Sie" href="https://mediaindia.eu/wp-content/uploads/2025/03/Indien-Fur-Sie-Mar-Apr-2025_compressed-2-370x523.png" target="_blank" title="Indien Für Sie">
+              <img src="https://mediaindia.eu/wp-content/uploads/2025/03/Indien-Fur-Sie-Mar-Apr-2025_compressed-2-370x523.png" alt="Indien Für Sie">
+            </a>
+          </div>
+          <div class="swiper-slide" style="width:300px">
+            <a class="mag-cover" data-caption="Biz@India" href="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" target="_blank" title="Biz@India">
+              <img src="https://mediaindia.eu/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-15-at-23.42.13_f01543c1-370x523.jpg" alt="Biz@India">
+            </a>
+          </div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </section>
+
+
+
+    <!-- INDES -->
+    <section id="indes" class="container">
+      <div class="section-title">INDES</div>
+      <div class="mag-list">
+        <a href="#" class="mag-link" data-magazine="INDES">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?india,design" alt="INDES Cover 1">
+            <div class="meta"><h3>Jul–Sep 2025</h3><p class="small">Design, Society, Business</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDES">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?architecture,magazine" alt="INDES Cover 2">
+            <div class="meta"><h3>Apr–Jun 2025</h3><p class="small">Urban form & identity</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDES">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?art,cover" alt="INDES Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDES">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?art,cover" alt="INDES Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- INDIA & YOU -->
+    <section id="india-you" class="container">
+      <div class="section-title">INDIA & YOU</div>
+      <div class="mag-list">
+        <a href="#" class="mag-link" data-magazine="INDIA & YOU">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?india,culture" alt="India & You Cover 1">
+            <div class="meta"><h3>Jul–Sep 2025</h3><p class="small">Culture & Lifestyle</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIA & YOU">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?festival,india" alt="India & You Cover 2">
+            <div class="meta"><h3>Apr–Jun 2025</h3><p class="small">Festivals & Travel</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIA & YOU">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?heritage,india" alt="India & You Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIA & YOU">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?heritage,india" alt="India & You Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- DESTINO LA INDIA -->
+    <section id="destino" class="container">
+      <div class="section-title">DESTINO LA INDIA</div>
+      <div class="mag-list">
+        <a href="#" class="mag-link" data-magazine="DESTINO LA INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?india,viajes" alt="Destino La India Cover 1">
+            <div class="meta"><h3>2025 Edición</h3><p class="small">Experiencias de viaje</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="DESTINO LA INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?playa,asia" alt="Destino La India Cover 2">
+            <div class="meta"><h3>2024 Edición</h3><p class="small">Costas y cultura</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="DESTINO LA INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?ciudad,india" alt="Destino La India Archivo">
+            <div class="meta"><h3>Archivo</h3><p class="small">Números anteriores</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="DESTINO LA INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?ciudad,india" alt="Destino La India Archivo">
+            <div class="meta"><h3>Archivo</h3><p class="small">Números anteriores</p></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- INDIEN FÜR SIE -->
+    <section id="indien" class="container">
+      <div class="section-title">INDIEN FÜR SIE</div>
+      <div class="mag-list">
+        <a href="#" class="mag-link" data-magazine="INDIEN FÜR SIE">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?indien,reisen" alt="Indien Für Sie Cover 1">
+            <div class="meta"><h3>März–April 2025</h3><p class="small">Reisen & Kultur</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIEN FÜR SIE">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?stadt,indien" alt="Indien Für Sie Cover 2">
+            <div class="meta"><h3>Jan–Feb 2025</h3><p class="small">Städte & Menschen</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIEN FÜR SIE">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?magazin,cover" alt="Indien Für Sie Archiv">
+            <div class="meta"><h3>Archiv</h3><p class="small">Frühere Ausgaben</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIEN FÜR SIE">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?magazin,cover" alt="Indien Für Sie Archiv">
+            <div class="meta"><h3>Archiv</h3><p class="small">Frühere Ausgaben</p></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- BIZ@INDIA -->
+    <section id="biz-india" class="container">
+      <div class="section-title">BIZ@INDIA</div>
+      <div class="mag-list">
+        <a href="#" class="mag-link" data-magazine="BIZ@INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?business,india" alt="Biz@India Cover 1">
+            <div class="meta"><h3>Paris Air Show 2025</h3><p class="small">Aerospace Special</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="BIZ@INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?economy,india" alt="Biz@India Cover 2">
+            <div class="meta"><h3>Q1 2025</h3><p class="small">Markets & Policy</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="BIZ@INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?industry,report" alt="Biz@India Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="BIZ@INDIA">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?industry,report" alt="Biz@India Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- INDIA OUTBOUND -->
+    <section id="india-outbound" class="container">
+      <div class="section-title">INDIA OUTBOUND</div>
+      <div class="mag-list">
+        <a href="#" class="mag-link" data-magazine="INDIA OUTBOUND">
+          <div class="mag-card">
+            <img src="https://mediaindia.eu/wp-content/uploads/2025/08/cover-image-370x523.jpg" alt="India Outbound Jul–Aug 2025">
+            <div class="meta"><h3>Jul–Aug 2025</h3><p class="small">Special: Dream Destinations</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIA OUTBOUND">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?travel,magazine" alt="India Outbound Previous">
+            <div class="meta"><h3>May–Jun 2025</h3><p class="small">Top Picks in Europe</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIA OUTBOUND">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?industry,report" alt="India Outbound Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+        <a href="#" class="mag-link" data-magazine="INDIA OUTBOUND">
+          <div class="mag-card">
+            <img src="https://source.unsplash.com/800x600/?industry,report" alt="India Outbound Archive">
+            <div class="meta"><h3>Archive</h3><p class="small">Explore previous issues</p></div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p>Copyright © 2025 <a href="https://mediaindia.eu" target="_blank">mediaindia.eu</a> - All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <a href="about.html">About</a>
+        <span class="footer-separator">•</span>
+        <a href="magazines.html">Magazine Subscriptions</a>
+        <span class="footer-separator">•</span>
+        <a href="privacy.html">Privacy & Policy</a>
+        <span class="footer-separator">•</span>
+        <a href="sitemap.html">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    (function(){
+      if (typeof Swiper !== 'undefined') {
+        new Swiper('.magazine-swiper', {
+          effect: 'coverflow',
+          // grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          loop: true,
+          speed: 1000,
+          autoplay: { delay: 2000, disableOnInteraction: false },
+          coverflowEffect: { rotate: 50, stretch: 0, depth: 120, modifier: 0.8, slideShadows: true },
+          pagination: { el: '.swiper-pagination', clickable: true }
+        });
+      }
+    })();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
